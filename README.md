@@ -17,19 +17,17 @@ A modern fitness tracking application built with React Native and Expo, featurin
 - Automatic calorie and macro calculation
 - Daily nutrition summaries
 - Meal history with images
-- Achievement system
+
 
 ### Activity Monitoring 📊
 - Step counting
 - Distance tracking
 - Daily goals
-- Weekly summaries
-- Achievement badges
+
 
 ### User Experience 🎨
 - Dark theme optimized
 - Accessibility features
-- Offline support
 - Secure authentication
 - Cross-platform compatibility
 
