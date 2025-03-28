@@ -2,7 +2,6 @@
 
 A modern fitness tracking application built with React Native and Expo, featuring AI-powered meal tracking, workout logging, and activity monitoring.
 
-![StrideFit App](./assets/app-preview.png)
 
 ## ✨ Features
 
