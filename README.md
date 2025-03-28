@@ -56,16 +56,6 @@ cd StrideFit
 # Install dependencies
 yarn install
 
-# Create environment file
-touch .env
-```
-
-Add the following to your `.env` file:
-```env
-SUPABASE_URL=your_supabase_url
-SUPABASE_ANON_KEY=your_supabase_anon_key
-GOOGLE_AI_API_KEY=your_google_ai_key
-```
 
 ### Running the App
 
