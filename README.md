@@ -54,54 +54,53 @@ git clone https://github.com/yourusername/StrideFit.git
 cd StrideFit
 
 # Install dependencies
-yarn install
+npm install
 
 
 ### Running the App
 
 ```bash
 # Start the development server
-yarn start
+npm start
 
-# Run on iOS
-yarn ios
+# Press s to switch to Expo Go
+Press a (For android)
 
-# Run on Android
-yarn android
-
-# Build APK
-eas build -p android --profile preview
+Press i (For ios)
 ```
+
+## 📱 Device Permissions Setup
+
+### iOS Motion & Fitness Permissions
+1. Navigate to device Settings:
+   ```
+   Settings > Privacy & Security > Motion & Fitness
+   ```
+2. Enable "Fitness Tracking"
+3. Find "Expo Go" in the app list
+4. Toggle permission switch to ON
+
+### Android Physical Activity Permissions
+1. Navigate to device Settings:
+   ```
+   Settings > Privacy > Permission Manager > Physical Activity
+   ```
+2. Locate "Expo Go" in the app list
+3. Select "Allow all the time" permission
+
 
 
 ## 🛠 Tech Stack
 
 - **Frontend**: React Native, Expo
 - **Backend**: Supabase
-- **AI Services**: Google AI Vision
+- **AI Services**: Google AI Vision, Deepseek
 - **Storage**: AsyncStorage, Supabase Storage
 - **Navigation**: React Navigation
 - **Charts**: React Native SVG, React Native Chart Kit
 - **Sensors**: Expo Sensors
 
-## 📱 Building for Production
 
-### Android
-
-```bash
-# Configure EAS
-eas build:configure
-
-# Build APK
-eas build -p android --profile preview
-```
-
-### iOS
-
-```bash
-# Build for iOS
-eas build -p ios --profile preview
-```
 
 ## 🤝 Contributing
 
